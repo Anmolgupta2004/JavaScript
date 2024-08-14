@@ -37,36 +37,37 @@ Below are some screenshots that showcase the functionality and design of the pro
 
 
 
+![Screenshot 2024-08-14 153044](https://github.com/user-attachments/assets/7933412d-1379-46e7-828d-d61c0f938393)
 
 
-![Color Changer]()(https://github.com/user-attachments/assets/33918e91-8ee8-4a1e-8a17-00ea0ec17099)
+## Color Changer
 
-![BMI Calculator](./images/screenshot2.png)
-![Digital Clock](./images/screenshot1.png)
+![Screenshot 2024-08-14 153113](https://github.com/user-attachments/assets/2df4bf90-2960-4884-aaff-a55d35a49226)
 
-![Guess a Number](./images/screenshot1.png)
+## BMI Calculator
 
-![Keyboard Press](./images/screenshot1.png)
+![Screenshot 2024-08-14 153138](https://github.com/user-attachments/assets/baebb353-5354-481a-8c79-bba992f5cd7b)
 
-![Unlimited Color](./images/screenshot1.png)
+## Digital Clock
 
-![Image Changer](./images/screenshot1.png)
+![![Screenshot 2024-08-14 153208](https://github.com/user-attachments/assets/e49e8325-a3fd-4317-bd55-3ff2cbbd2846)
+
+## Guess a Number
 
 
+![Screenshot 2024-08-14 153238](https://github.com/user-attachments/assets/daec4e75-c246-4728-9fee-7fc41697a987)
 
-## Installation
+## Keyboard Press
+![Screenshot 2024-08-14 153304](https://github.com/user-attachments/assets/b28cf6e6-8fd4-485b-b4bc-19533d42405c)
 
-To run any of the projects locally, follow these steps:
+## Unlimited Color
+![Screenshot 2024-08-14 153341](https://github.com/user-attachments/assets/471974b9-eabd-4d47-83bd-128684e8a000)
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/frontend-js-mini-projects.git
-    ```
-2. Navigate to the specific project folder:
-    ```bash
-    cd project-folder
-    ```
-3. Open the `index.html` file in your preferred browser.
+## Image Changer
+
+![Screenshot 2024-08-14 153411](https://github.com/user-attachments/assets/1d2d252e-9faf-4582-9135-5e9093ea011e)
+
+
 
 ## Usage
 
