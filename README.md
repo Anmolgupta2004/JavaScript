@@ -50,7 +50,7 @@ Below are some screenshots that showcase the functionality and design of the pro
 
 ## Digital Clock
 
-![![Screenshot 2024-08-14 153208](https://github.com/user-attachments/assets/e49e8325-a3fd-4317-bd55-3ff2cbbd2846)
+![Screenshot 2024-08-14 153208](https://github.com/user-attachments/assets/e49e8325-a3fd-4317-bd55-3ff2cbbd2846)
 
 ## Guess a Number
 
