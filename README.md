@@ -22,23 +22,37 @@ This repository contains a series of mini-projects built using JavaScript. The p
 
 The following is a list of the mini projects included in this repository:
 
-1. **Project 1**: Description of the first project.
-2. **Project 2**: Description of the second project.
-3. **Project 3**: Description of the third project.
+1. **Project 1**:Color Changer
+2. **Project 2**:BMI Calculator
+3. **Project 3**:Digital Clock
+4. **Project 4**:Guess a Number
+5. **Project 5**:Keyboard Press
+6. **Project 6**:Unlimited Color
+7. **Project 7**:Image Changer
 
-*... (Include as many projects as you have)*
 
 ## Screenshots
 
 Below are some screenshots that showcase the functionality and design of the projects.
 
-*Include images here with a brief description of what they depict*
 
-![Screenshot 1](./images/screenshot1.png)
-*Project 1 - Brief Description*
 
-![Screenshot 2](./images/screenshot2.png)
-*Project 2 - Brief Description*
+
+
+![Color Changer]()(https://github.com/user-attachments/assets/33918e91-8ee8-4a1e-8a17-00ea0ec17099)
+
+![BMI Calculator](./images/screenshot2.png)
+![Digital Clock](./images/screenshot1.png)
+
+![Guess a Number](./images/screenshot1.png)
+
+![Keyboard Press](./images/screenshot1.png)
+
+![Unlimited Color](./images/screenshot1.png)
+
+![Image Changer](./images/screenshot1.png)
+
+
 
 ## Installation
 
