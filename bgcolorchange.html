@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BackGround Color Changer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+    .start{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    .button{
+text-align: center;
+margin-top: 50px;
+
+    }
+    .stop{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+</style>
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+          <button class="btn btn-outline-success"><a class="nav-link" style="text-align: center;" href="#">Home</a></button> 
+           <form class="d-flex" role="search">
+         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+         <button class="btn btn-outline-success" type="submit">Search</button>
+             </form>
+        </div>
+</nav>
+<div class="start"><p>Start should Change the BackGround<br> Every Second</p></div>
+
+<div class="button">
+<button class="btn btn-outline-success" id="start"  type="submit">Start</button>
+         
+<button class="btn btn-outline-success" id="stop" type="submit">Stop</button>
+</div>
+<div class="stop"><p>Stop should stop the Color <br>Changing Procees</p></div>
+    
+</body>
+<script>
+    //generate a random color
+ const start=document.getElementById('start');
+ const body=document.querySelector('body')
+  const stop=document.getElementById('stop');
+    const randomColor=()=>{
+        const hex='0123456789ABCDEF'
+        let color='#';
+    //  let ans=hex[Math.floor(Math.random()*16)]//hex per loop laga ker kisse ek ko select ker rahi h
+         for (let i = 0; i < 6; i++) {
+            color+=hex[Math.floor(Math.random()*16)] 
+         }
+        return color;
+    }
+let intervalId;
+const startChangingColor=()=>{
+
+   if(!intervalId){
+    intervalId= intervalId=setInterval(changeBgColor,1000);
+   }
+    function changeBgColor(){
+        document.body.style.backgroundColor=randomColor()
+        }
+}
+const stopChangingColor=()=>{
+        clearInterval(intervalId);
+        intervalId=null;
+       
+    }
+    start.addEventListener('click',startChangingColor)
+    stop.addEventListener('click',stopChangingColor)
+</script>
+</html>

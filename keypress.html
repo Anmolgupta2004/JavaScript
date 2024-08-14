@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Key Presser Game</title>
+</head>
+<style>
+    .key{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    table,th,td{
+        border: 1px solid #3c3c3c;
+        
+    }
+    .project{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 20px;
+      
+    }
+    .color{
+        color:#3c3c3c;
+        display: flex;
+        flex-direction: row;
+
+    }
+</style>
+<body>
+    <div class="main">
+        <nav class="navbar">
+                 <div class="container-fluid">
+                  <button class="btn btn-outline-success"><a class="nav-link" style="text-align: center;" href="#">Home</a></button> 
+                   <form class="d-flex" role="search">
+                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                 <button class="btn btn-outline-success" type="submit">Search</button>
+                     </form>
+                   </div>
+               </nav>
+               <div class="key">
+                Press The Key And Watch Magic
+            </div>
+               <div class="project">
+                <div id="insert">
+                   
+                </div>
+               </div>
+    </div>           
+    </body>
+   <script>
+   const insert= document.getElementById('insert')
+   window.addEventListener('keydown',(e)=>{
+    insert.innerHTML=`<div class='color'>
+        <table>
+            <tr>
+                <th>Key</th>
+                <th>Keycode</th>
+                <th>Code</th>
+                </tr>
+                <tr>
+                <th>${e.key}</th>
+                <th>${e.keyCode}</th>
+                <th>${e.code}</th>
+                </tr>
+            </table>
+        </div>`
+   })
+   </script>
+</html>
